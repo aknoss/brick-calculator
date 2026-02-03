@@ -95,14 +95,6 @@ export default function Home() {
     <div className="flex min-h-screen flex-col p-4">
       <ContentWrapper>
         <header className="flex flex-col gap-6 items-center mt-10">
-          <Image
-            className=""
-            src="/logo.jpeg"
-            alt="Logo"
-            width={160}
-            height={160}
-            priority
-          />
           <h1 className="text-xl">Calculadora de Tijolos</h1>
         </header>
         <main className="mt-6 flex flex-col items-center gap-6">
